@@ -1,4 +1,6 @@
-
+/*
+by Chawit Wiriyakun
+*/
 class CheckerURL
 	{
 		public $inurl;
