@@ -24,7 +24,8 @@ class CheckerURL
 			}
 	
 		}
-		private function IS_deadlink() {
+		private function IS_deadlink() 
+                {
 			
 			$curlcheker = curl_init();
 			curl_setopt( $curlcheker , CURLOPT_URL, $this->inurl);
